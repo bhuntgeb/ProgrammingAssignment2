@@ -12,7 +12,7 @@
 ## The operator "<< -" assigns values from the so-called "child" functions to the symbols in this cache environment.
 ## argument x must be a matrix object, e.g. Matrix (c (1,2,3,4), ncol = 2, nrow = 2)
 ## symbol x saves the martix
-## symbol I save the inverse matrix
+## symbol i save the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
